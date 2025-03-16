@@ -6,6 +6,7 @@ const sizeElement = document.getElementById("size");
 const colorElement = document.getElementById("color");
 const clearElement = document.getElementById("clear");
 const downloadElement = document.getElementById("download");
+const darkModeToggle = document.getElementById("dark-mode-toggle"); // Dark Mode Button
 
 const ctx = canvas.getContext("2d");
 
@@ -102,4 +103,14 @@ downloadElement.addEventListener("click", () => {
   link.download = "drawing.png";
   link.href = canvas.toDataURL("image/png");
   link.click();
+});
+
+// Dark Mode Toggle
+darkModeToggle.addEventListener("click", () => {
+  document.body.classList.toggle("dark-mode");
+  if (document.body.classList.contains("dark-mode")) {
+    darkModeToggle.innerHTML = '<i class="fa fa-sun-o"></i>'; // Sun icon for light mode
+  } else {
+    darkModeToggle.innerHTML = '<i class="fa fa-moon-o"></i>'; // Moon icon for dark mode
+  }
 });

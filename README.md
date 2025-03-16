@@ -41,7 +41,8 @@ This is a **simple yet powerful** paint application built using **HTML, CSS, and
 🚀 Allow **drag-and-drop image upload** for editing  
 
 ## Screenshots 📸
-![Alt text](draw.png)
+![Page](draw.png)
+![Alt text](draw_2.png)
 
 ## Contributing 🤝
 1. Fork the repo & clone it locally.
