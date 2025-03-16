@@ -20,7 +20,7 @@ This is a **simple yet powerful** paint application built using **HTML, CSS, and
 ## Installation & Usage 🚀
 1. Clone the repository:  
    ```sh
-   git clone https://github.com/your-username/paint-app.git
+   git clonehttps://github.com/tejHacks/web-paint.git
    ```
 2. Open the `index.html` file in your browser.
 3. Start drawing! 🖌️
